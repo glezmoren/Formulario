@@ -1,0 +1,71 @@
+@import '_reset';
+.header{
+    width: 100%;
+    padding: 2rem 0;
+    &__wrapper{
+        width: 80%;
+        margin: auto;
+        
+    }
+    &__h1{
+        font-size: 3em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.formulario{
+    width: 100%;
+    padding: 0 0 2rem 0;
+    &__wrapper{
+        width: 90%;
+        max-width: 900px;
+        margin: auto; 
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 2rem;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        background-color: white;
+    }
+    &__h2{
+        font-weight: 600;
+        margin: 1rem 0;
+    }
+    &__input{
+        border-radius: 1rem;
+        border: 1px solid black;
+        width: 100%;
+        padding: 0.6rem;
+    }
+    &__slug{
+        border-radius: 1rem;
+        border: 1px solid black;
+        width: 100%;
+        padding: 1.2rem 0.6rem;
+        background-color: lightgray;
+        margin-bottom: 1rem;
+    }
+    &__publicacion{
+        border-radius: 1rem;
+        border: 1px solid black;
+        width: 100%;
+        padding: 0.6rem;
+        min-height: 12vh;
+        margin-bottom: 1rem;
+    }
+    &__btns{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+
+    }
+    &__btn{
+        margin: 0 1rem 0 0;
+        background-color: lightgray;
+        padding: .6rem 1rem;
+    }
+
+}
